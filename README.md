@@ -1,6 +1,6 @@
 This is a digital version of a card and die game I plan on making.
 
-Here's a modification from my mac!
+Here's a modification from my mac! Here's another modification from my mac.
 
 Because programming things is easier for me to do, and allows me to have multiple playsessions regardless of physical location, and I can easily edit values and test quickly, I am using this as a method to test the structure and content of the game.
 
