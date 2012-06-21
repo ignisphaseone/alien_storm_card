@@ -5,7 +5,6 @@ Created on Jun 18, 2012
 '''
 import json
 
-dirname = "../res/"
 dice = []
 die = {
     "name": "basic_attack",
@@ -173,11 +172,11 @@ die = {
 dice.append(die);
 print dice;
 
-data = open(dirname + 'dice.json', 'w+')
+data = open('dice.json', 'w+')
 json.dump(dice, data)
 data.close()
 
-load = open('../res/dice.json', 'r')
+load = open('dice.json', 'r')
 data2 = json.load(load)
 load.close()
 print data2
@@ -214,6 +213,6 @@ for d1 in ship["dice"]:
 ships.append(ship)
 
 print ships
-data3 = open(dirname + 'ships.json', 'w+')
+data3 = open('ships.json', 'w+')
 json.dump(ships, data3)
 data3.close()

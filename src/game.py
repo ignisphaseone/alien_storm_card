@@ -46,7 +46,7 @@ def auto_roll_ship(ship):
             results[roll[0]] += roll[1]
     print results
     
-load = open('../res/ships.json', 'r')
+load = open('src/alien_storm/data/ships.json', 'r')
 data4 = json.load(load)
 load.close()
 auto_roll_ship(data4[0])
