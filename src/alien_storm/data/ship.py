@@ -83,5 +83,7 @@ myship = ship(json.dumps(ssample))
 print myship.name
 print myship.sid
 print myship.desc
-print myship.dice
-print myship.actions
+for d in myship.dice:
+    print d
+for a in myship.actions:
+    print a

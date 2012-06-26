@@ -24,24 +24,5 @@ class action(object):
         self.result = self.data["result"]
     def json(self):
         return json.dumps(self.data)
-
-asample = {
-    "timing":[
-        "explore",
-        ],
-    "cost":[
-        {"attack_dice":1,"civilian_dice":1,},
-        {"frigate":1},
-        ],
-    "limit":{
-        "phase":1,
-        "turn":2,
-        },
-    "scope":[
-        "any",
-        ],
-    "result":[
-        {"attack":1,"shield":1,},
-        {"attack":6},
-        ],
-    }
+    def __str__(self):
+        return str(self.aid) + "-" + str(self.__hash__())
