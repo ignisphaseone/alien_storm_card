@@ -16,6 +16,31 @@ Because programming things is easier for me to do, and allows me to have multipl
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/InteractiveResource" property="dct:title" rel="dct:type">Alien Storm</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://www.ignisphaseone.com" property="cc:attributionName" rel="cc:attributionURL">Eric Fong</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License</a>.
 
+        self.timing = [
+            "explore",
+            "events",
+            "prepare",
+            "attack",
+            "resolve",
+            "end"
+            ]
+        # Pay all costs of any single list item. Each dict is the full cost.
+        self.cost = [
+            {"attack_dice":1, "civilian_dice":1},
+            {"frigate":1}
+            ]
+        # Limits. Number per phase, and number per turn. Also, maybe per game abilities? Etc.
+        self.limit = {
+            "phase":1,
+            "turn":2
+            }
+        self.scope = {
+            }
+        self.result = {
+            "attack":1,
+            "shield":1
+            }
+
 Dice have:
 --name
 --color
