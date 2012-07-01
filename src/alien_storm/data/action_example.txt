@@ -1,0 +1,24 @@
+        self.timing = [
+            "explore",
+            "events",
+            "prepare",
+            "attack",
+            "resolve",
+            "end"
+            ]
+        # Pay all costs of any single list item. Each dict is the full cost.
+        self.cost = [
+            {"attack_dice":1, "civilian_dice":1},
+            {"frigate":1}
+            ]
+        # Limits. Number per phase, and number per turn. Also, maybe per game abilities? Etc.
+        self.limit = {
+            "phase":1,
+            "turn":2
+            }
+        self.scope = {
+            }
+        self.result = {
+            "attack":1,
+            "shield":1
+            }
