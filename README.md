@@ -29,9 +29,8 @@ Ships have:
 --special actions
 
 Turn Order:
---Explore (find new events, scan for targets, set aside ships for exploration)
---events (Roll ships on exploration)
---Prepare (Spend Dice for special actions)
+--Recon (find new events, scan for targets)
+--Scramble (Spend Dice for special actions)
 --Attack (Roll dice)
 --Resolve (Destroy Aliens)
 
